@@ -1,8 +1,0 @@
-{
-  "builds": [
-    {
-      "src": "patient-registration-app/**",
-      "use": "@vercel/static"
-    }
-  ]
-}
