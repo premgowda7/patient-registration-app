@@ -1,8 +1,11 @@
 {
   "builds": [
     {
-      "src": "patient-registration-app/**",
+      "src": "patient-registration-app/**/*",
       "use": "@vercel/static"
     }
+  ],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/patient-registration-app/$1" }
   ]
 }
